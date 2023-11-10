@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #90ABB7;
+    z-index: -1;
+}
+
+section{
+    padding: 30px 5%;
+}
+
+.container{
+    background: #DEE2E7;
+    padding: 30px 5%;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+h2{
+    font-family: "Poppins", sans-serif;
+    color: navy;
+}
+
+.categories{
+    display: flex;
+    margin-left: -10px;
+    margin-bottom: 20px;
+}
+
+.categories p{
+    background: white;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 10px;
+    font-size: 10px;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.collections{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -50px;
+}
+
+.collection{
+    width: 300px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.big-collection{
+    height: 150px;
+    background: url(images/people.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.small-collections{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.small-collection{
+    height: 80px;
+    width: 80px;
+    background: url(images/people.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.col-1{
+    background: url(images/person-1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col-2{
+    background: url(images/person-2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col-3{
+    background: url(images/person-3.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.col-4{
+    background: url(images/nature-1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.col-5{
+    background: url(images/nature-2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.col-6{
+    background: url(images/nature-3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.col-7{
+    background: url(images/history-1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.col-8{
+    background: url(images/history-2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.col-9{
+    background: url(images/history-3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+
+.big-2{
+    background: url(images/nature-big.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.big-3{
+    background: url(images/history-big.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.collections-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.collections-info p{
+    font-family: "Montserrat", sans-serif;
+
+}
+
+span{
+    font-size: 15px;
+    color: gray;
+    font-family: "Montserrat", sans-serif;
+}
